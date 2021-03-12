@@ -23,6 +23,7 @@
     "@types/react-dom": "^17.0.2",
     "babel-loader": "^8.2.2",
     "eslint": "^7.21.0",
+    "husky": "^5.1.3",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -35,5 +36,15 @@
     "url": "https://github.com/JUNGJUNYONG/dllo-component/issues",
     "email": "jkouese@gmail.com"
   },
-  "dependencies": {}
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
 }
