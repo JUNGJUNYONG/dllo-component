@@ -10,8 +10,9 @@
     "esModuleInterop": true,
     "sourceMap": false,
     "inlineSourceMap": false,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "outDir": "./.tmp/"
   },
-  "include":["src/**/*"],
+  "include":["src/**/*","stories/**/*"],
   "exclude": ["node_modules"]
 }

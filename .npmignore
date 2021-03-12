@@ -1,0 +1,10 @@
+node_modules/
+.idea
+.git*
+package-lock.json
+prettier.main.js
+rollup.main.js
+tsconfig.js
+src/
+.storybook
+stories/

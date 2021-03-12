@@ -1,9 +1,14 @@
 import typescript from "@rollup/plugin-typescript";
-
+import postcss from 'rollup-plugin-postcss';
 const input = "src/dllo.ts";
 
 const plugins = [
-    typescript({tsconfig: "./tsconfig.json"})
+    typescript({tsconfig: "./tsconfig.json"}),
+    postcss({
+        extract: false,
+        modules: true,
+        use: ['css'],
+    })
 ];
 
 export default [

@@ -1,9 +1,7 @@
-import {Container,Panel} from "./layout/layout";
-
+import layout from "./layout/layout";
 
 export default {
-    Panel: Panel,
-    Container: Container
+    layout: layout,
 }
 
 

@@ -1,25 +1,39 @@
 {
   "name": "dllo-component",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "dllo Component",
   "main": "dist/dllo.js",
   "module": "dist/dllo.js",
   "types": "dist/types/dllo.d.ts",
   "scripts": {
     "build": "npx rollup -c",
-    "build:watch": "npx rollup -c -w"
+    "build:watch": "npx rollup -c -w",
+    "storybook": "start-storybook -p 8000"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.13.10",
     "@rollup/plugin-typescript": "^8.2.0",
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
+    "@storybook/react": "^6.1.21",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.2",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.21.0",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "rollup": "^2.41.1",
+    "rollup-plugin-postcss": "^4.0.0",
+    "tslib": "^2.1.0",
     "typescript": "^4.2.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/JUNGJUNYONG/dllo-component/issues",
+    "email": "jkouese@gmail.com"
+  },
+  "dependencies": {}
 }
