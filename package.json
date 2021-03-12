@@ -1,0 +1,25 @@
+{
+  "name": "dllo-component",
+  "version": "0.0.1",
+  "description": "dllo Component",
+  "main": "dist/dllo.js",
+  "module": "dist/dllo.js",
+  "types": "dist/types/dllo.d.ts",
+  "scripts": {
+    "build": "npx rollup -c",
+    "build:watch": "npx rollup -c -w"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "eslint": "^7.21.0",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rollup": "^2.41.1",
+    "typescript": "^4.2.3"
+  }
+}

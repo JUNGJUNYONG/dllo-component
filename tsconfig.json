@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "jsx": "react",
+    "lib": ["es6", "es7", "es2017", "dom","esnext"],
+    "declarationDir": "types/",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "inlineSourceMap": false,
+    "moduleResolution": "Node"
+  },
+  "include":["src/**/*"],
+  "exclude": ["node_modules"]
+}
