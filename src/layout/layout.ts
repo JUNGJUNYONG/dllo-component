@@ -1,5 +1,5 @@
-import {Panel} from "./panel/Panel";
-import {Container} from "./container/Container"
+import { Panel } from './panel/Panel';
+import { Container } from './container/Container';
 
-
-export default {Panel,Container};
+aaaa;
+export default { Panel, Container };

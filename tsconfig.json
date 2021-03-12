@@ -13,6 +13,6 @@
     "moduleResolution": "Node",
     "outDir": "./.tmp/"
   },
-  "include":["src/**/*","stories/**/*"],
+  "include":["src/**/*"],
   "exclude": ["node_modules"]
 }
