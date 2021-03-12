@@ -1,5 +1,5 @@
 import { Panel } from './panel/Panel';
 import { Container } from './container/Container';
 
-aaaa;
+aa;
 export default { Panel, Container };
