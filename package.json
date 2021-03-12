@@ -8,8 +8,7 @@
   "scripts": {
     "build": "rimraf dist && npx rollup -c",
     "build:watch": "rimraf dist && npx rollup -c -w",
-    "storybook": "start-storybook -p 8000",
-    "lint": "eslint ."
+    "storybook": "start-storybook -p 8000"
   },
   "author": "",
   "license": "MIT",
