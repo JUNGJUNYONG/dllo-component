@@ -45,15 +45,16 @@
     "email": "jkouese@gmail.com"
   },
   "lint-staged": {
-    ".{ts.tsx}": [
-      "eslint --fix",
-      "git add"
+    "src/**/*.{ts,tsx}": [
+      "eslint --ext .tsx --ext .ts src/ --fix"
+    ],
+    "./src/**": [
+      "prettier --write ."
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "lint-staged"
+      "pre-commit": "lint-staged"
     }
   }
 }

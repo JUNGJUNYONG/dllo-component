@@ -1,0 +1,5 @@
+*.jpg
+dist/
+node_modules
+.idea
+./.tmp/
