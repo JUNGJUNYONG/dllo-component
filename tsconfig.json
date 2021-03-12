@@ -3,7 +3,7 @@
     "module": "esnext",
     "jsx": "react",
     "lib": ["es6", "es7", "es2017", "dom","esnext"],
-    "declarationDir": "types/",
+    "declarationDir": "./types",
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "declarationMap": true,

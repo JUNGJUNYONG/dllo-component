@@ -1,7 +1,5 @@
-import layout from "./layout/layout";
+import layout from './layout/layout';
 
 export default {
-    layout: layout,
-}
-
-aaaa
+  layout: layout,
+};
