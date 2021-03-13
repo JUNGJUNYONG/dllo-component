@@ -21,6 +21,5 @@ export default [
       format: 'esm',
       sourcemap: true,
     },
-    // external,
   },
 ];

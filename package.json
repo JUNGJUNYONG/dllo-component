@@ -33,12 +33,11 @@
     "rollup": "^2.41.1",
     "rollup-plugin-postcss": "^4.0.0",
     "tslib": "^2.1.0",
-    "typescript": "^4.2.3"
-  },
-  "peerDependencies": {
+    "typescript": "^4.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
+  "peerDependencies": {},
   "bugs": {
     "url": "https://github.com/JUNGJUNYONG/dllo-component/issues",
     "email": "jkouese@gmail.com"
